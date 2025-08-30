@@ -20,6 +20,7 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
     { name = "langgraph" },
+    { name = "python-dotenv" },
     { name = "streamlit" },
     { name = "watchdog" },
 ]
@@ -34,6 +35,7 @@ requires-dist = [
     { name = "langchain-openai", specifier = ">=0.3.31" },
     { name = "langchain-tavily", specifier = ">=0.2.11" },
     { name = "langgraph", specifier = ">=0.6.6" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "streamlit", specifier = ">=1.48.1" },
     { name = "watchdog", specifier = ">=6.0.0" },
 ]
